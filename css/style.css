@@ -1,0 +1,410 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+
+* {
+     box-sizing: border-box !important;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'poppins', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+}
+
+a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+h1 {
+     font-size: 24px
+}
+
+h2 {
+     font-size: 22px
+}
+
+h3 {
+     font-size: 18px
+}
+
+h4 {
+     font-size: 16px
+}
+
+h5 {
+     font-size: 14px
+}
+
+h6 {
+     font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1
+}
+
+button:focus {
+     outline: none;
+}
+
+ul,
+li,
+ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 0px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+
+a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+
+a,
+.btn {
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+ :focus {
+     outline: 0;
+}
+
+.btn-custom {
+     margin-top: 20px;
+     background-color: transparent !important;
+     border: 2px solid #ddd;
+     padding: 12px 40px;
+     font-size: 16px;
+}
+
+.lead {
+     font-size: 18px;
+     line-height: 30px;
+     color: #767676;
+     margin: 0;
+     padding: 0;
+}
+
+.form-control:focus {
+     border-color: #ffffff !important;
+     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+     border: none !important;
+}
+
+.badge {
+     font-weight: 500;
+}
+
+blockquote {
+     margin: 20px 0 20px;
+     padding: 30px;
+}
+
+button {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+
+.full {
+     float: left;
+     width: 100%;
+}
+
+.layout_padding {
+     padding-top: 90px;
+     padding-bottom: 90px;
+}
+
+.layout_padding_2 {
+     padding-top: 75px;
+     padding-bottom: 75px;
+}
+
+.light_silver {
+     background: #f9f9f9;
+}
+
+.theme_bg {
+     background: #38c8a8;
+}
+
+.margin_top_30 {
+     margin-top: 30px !important;
+}
+
+.full {
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+
+
+
+a.readmore_bt {
+     color: #fff;
+     font-weight: 300;
+     text-decoration: underline !important;
+}
+
+.main_bt:hover,
+.main_bt:focus {
+     background: #ad2101;
+     border: solid #ad2101 5px;
+     color: #fff;
+}
+
+
+
+/** about section **/
+
+.about {
+     padding: 90px 0;
+}
+
+.about .titlepage {
+     text-align: center;
+}
+
+.about .titlepage p {
+     color: #000;
+}
+
+.about .about-box figure {
+     margin: 0;
+}
+
+.about .about-box figure img {
+     width: 100%;
+}
+
+.about .about-box h3 {
+     font-size: 30px;
+     line-height: 30px;
+     padding: 40px 10px 25px 10px;
+     color: #252525;
+     display: block;
+     font-weight: 500;
+}
+
+.about .about-box {
+     text-align: center;
+     background-color: #fff;
+     box-shadow: #ddd 0px 0px 8px 1px;
+}
+
+.about .about-box p {
+     font-size: 17px;
+     line-height: 30px;
+     color: #252525;
+     padding: 0px 20px 50px 20px;
+}
+
+.read_more {
+     font-size: 16px;
+     background-color: #000;
+     color: #fff;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 190px;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin: 0 auto;
+     margin-top: 50px;
+}
+
+.read_more:hover {
+     background: #ef4259;
+     color: #fff;
+}
+
+
+/** end about section **/
+
+/** contact section **/
+
+.white {
+     color: #fff;
+     font-size: 50px;
+     font-weight: 500;
+}
+
+.titlepage h2 {
+     padding: 0px 0px 6px 0px;
+     font-weight: 500;
+     color: #ef4259;
+     line-height: 55px;
+     font-size: 70px;
+     margin-bottom: 20px;
+}
+
+.contact .contact {
+     background: #010a05;
+     width: 100%;
+     height: 100%;
+     padding: 50px 0px;
+}
+
+.book_now {
+     float: left;
+     width: 100%;
+     max-width: 554px;
+}
+
+.contact .contact .contactus {
+     border: #898989 solid 1px;
+     padding: 0px 19px;
+     margin-bottom: 20px;
+     border-radius: inherit;
+     width: 100%;
+     height: 42px;
+     background: transparent;
+     color: #fff;
+     font-size: 16px;
+}
+
+.contact .contact .textarea {
+     margin-bottom: 25px;
+     padding: 15px 19px;
+     color: #fff !important;
+     width: 100%;
+     border: #898989 solid 1px;
+     border-radius: inherit;
+     background: transparent;
+}
+
+.contact .contact .send {
+     font-size: 16px;
+     transition: ease-in all 0.5s;
+     background-color: #fff;
+     color: #42ef42;
+     padding: 10px 60px;
+}
+
+.contact .contact .send:hover {
+     background-color: #42ef42;
+     transition: ease-in all 0.5s;
+     color: #fff;
+}
+
+.rable-box figure {
+     margin: 0px;
+}
+
+.rable-box figure img {
+     width: 100%;
+     min-height: 678px;
+}
+
+.nice-select {
+     background-color: transparent;
+     border: #ddd solid 1px;
+     height: 42px;
+     font-size: 16px;
+     width: 100%;
+     margin-bottom: 20px;
+}
+
+.nice-select::after {
+     height: 10px;
+     width: 10px;
+     border-bottom: 2px solid #fff;
+     border-right: 2px solid #fff;
+}
+
+#contactid *::placeholder {
+     color: #fff;
+     opacity: 1;
+}
+
+.current {
+     color: #fff;
+     margin-top: -4px;
+     position: absolute;
+}
+
+
+/** end contact section **/
+
