@@ -18,6 +18,7 @@ while True:
     
     faces = face_part.detectMultiScale(gray, 1.3, 5)    
     bodies = body_part.detectMultiScale(gray, 1.3, 5)
+    eyes = eye_part.detectMultiScale(gray, 1.3, 5)
 
     for (x, y, w, h) in faces:    
         cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 3)
@@ -35,6 +36,14 @@ while True:
             os.mkdir('file/' + datetime.now().strftime("%Y-%m-%d"))
 
         cv2.imwrite('file/' + datetime.now().strftime("%Y-%m-%d") + '/' + datetime.now().strftime("%H-%M") + '.jpg', body_snap)
+        
+     for (x, y, w, h) in eyes:    
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 3)
+        eye_snap = frame[y:y+h, x:x+w]
+        if not os.path.exists('file/' + datetime.now().strftime('%Y-%m-%d')):
+            os.mkdir('file/' + datetime.now().strftime("%Y-%m-%d"))
+
+        cv2.imwrite('file/' + datetime.now().strftime("%Y-%m-%d") + '/' + datetime.now().strftime("%H-%M") + '.jpg', eye_snap)
        
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
