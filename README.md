@@ -11,7 +11,7 @@ Beside the game, we also provide a free security camera service that takes scree
 ## How we built it
 We built our site using HTML, CSS, Javascript. We built the game using HTML, python, and flowlab. We built the free security camera by using OpenCV, Machine Learning, and Python to build the detection model. We built our chatbot using Twilio. 
 
-## Twilio:
+## Twilio
 We built the chatbot using Twilio to intake information of customers through text message
 
 ## Domain
