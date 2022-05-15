@@ -1,0 +1,5 @@
+const inputSet = [a, b, c];
+function workFn(letter) {
+return letter.toUppercase();
+const job = compute.for(inputSet, workFn);
+let results = await job.exec();
